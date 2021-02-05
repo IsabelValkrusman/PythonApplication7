@@ -23,6 +23,23 @@
   <ItemGroup>
     <Compile Include="PythonApplication7.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="aquarius.jpg" />
+    <Content Include="aquariuss.png" />
+    <Content Include="aries.png" />
+    <Content Include="cancer.png" />
+    <Content Include="gemini.png" />
+    <Content Include="kisspng-virgo.png" />
+    <Content Include="leo.png" />
+    <Content Include="libra.jpg" />
+    <Content Include="libraa.png" />
+    <Content Include="pisces.png" />
+    <Content Include="saggitarius.png" />
+    <Content Include="scorpion.png" />
+    <Content Include="taurus %281%29.png" />
+    <Content Include="tähtkujud.txt" />
+    <Content Include="unnamed.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
