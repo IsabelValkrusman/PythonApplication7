@@ -59,9 +59,6 @@ tabs.add(tab10,text="Kaalud")
 tabs.add(tab11,text="Skorpion")
 tabs.add(tab12,text="Ambur")
 
-#can=Canvas(tab2,width=300,height=200,bg="red")
-#can.pack()
-
 M=Menu(root)
 root.config(menu=M)
 m1=Menu(M,tearoff=1)
@@ -124,40 +121,6 @@ m2.add_separator()
 
 can=Canvas(tab2,width=300,height=200)
 can.pack()
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-can=Canvas(tab2,width=300,height=200)
-can.pack()
-
-
 
 m3=Menu(M,tearoff=0)
 M.add_cascade(label="Zodiac signs image",menu=m3)
@@ -221,7 +184,7 @@ btn_exit.grid(row=1,column=2)
 
 
 def taurus():
- tabs.select(1)
+ tabs.select(0)
  global img
  img=PhotoImage(file="taurus(1).png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
@@ -233,55 +196,61 @@ def scorpion():
  can.create_image(10.10,image=img,anchor=NW)
 
 def libra():
- tabs.select(1)
+ tabs.select(2)
  global img
  img=PhotoImage(file="libraa.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def saggitarius():
- tabs.select(1)
+ tabs.select(3)
  global img
  img=PhotoImage(file="saggitarius.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def leo():
- tabs.select(1)
+ tabs.select(4)
  global img
  img=PhotoImage(file="leo.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def aries():
- tabs.select(1)
+ tabs.select(5)
  global img
  img=PhotoImage(file="aries.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def pisces():
- tabs.select(1)
+ tabs.select(6)
  global img
  img=PhotoImage(file="pisces.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def aquarius():
- tabs.select(1)
+ tabs.select(7)
  global img
  img=PhotoImage(file="aquariuss.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def virgo():
- tabs.select(1)
+ tabs.select(8)
  global img
  img=PhotoImage(file="pisces.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def capricorn():
- tabs.select(1)
+ tabs.select(9)
  global img
  img=PhotoImage(file="aquariuss.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
 
 def gemini():
- tabs.select(1)
+ tabs.select(10)
+ global img
+ img=PhotoImage(file="pisces.png").subsample(sample)
+ can.create_image(10.10,image=img,anchor=NW)
+
+def (cancer):
+ tabs.select(11)
  global img
  img=PhotoImage(file="pisces.png").subsample(sample)
  can.create_image(10.10,image=img,anchor=NW)
@@ -292,27 +261,5 @@ def gemini():
 #can.create_image()
 #tabs.grid(row=1,column=0,columnspam=4)
 
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
-tabs.pack(fill="both")
-root.mainloop()
 tabs.pack(fill="both")
 root.mainloop()
