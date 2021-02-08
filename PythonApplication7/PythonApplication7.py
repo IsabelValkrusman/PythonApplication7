@@ -34,6 +34,14 @@ def funktion(a,fail):
     tabs.select(a)
     open_(fail)
 
+def mathimatic():
+    try:
+        getting=end.get()
+        solve=eval(getting)
+        label.configure(text=f"Vastus: {round(slove,)}")
+    except:
+        label.configure(text="Error.", font="Arial 15")
+
 tab1=Frame(tabs)
 tab2=Frame(tabs)
 tab3=Frame(tabs)
@@ -171,15 +179,54 @@ btn_open.grid(row=1,column=0)
 btn_save.grid(row=1,column=1)
 btn_exit.grid(row=1,column=2)
 
-#can1=Canvas(tab1,width=500,height=400,)
-#img1=PhotoImage(file="tähtkujud.txt").subsample(3)
-#can2.create_image(20,20,image=img2,anchor=NW)
-#btn3=Button(tab1,text="tähtkujud",command=lambda:camry("tähtkujud.txt")
 
-#vastus=Labe(aken,height=4,width=20,bg="yellow")
-#vastus.pack(side=BOTTOM)
+def lahenda():
+if (day.get()!="" and month.get()!=""):
+    d_=int(d.get())
+    m_=int(m.get())
+    d.configure(bg="lightblue")
+    m.configure(bg="lightblue")
+if (d_>23 and m_==12) or (d_<20 and m_==1):
+    print(Kaljukits)
+elif (d_>21 and m_==1) or (d_<19 and m_==2):
+    print(Veevalaja)
+elif (d_>20 and m_==2) or (d_<20 and m_==3):
+    print(Kala)
+elif (d_>21 and m_==3) or (d_<20 and m_==4):
+    print(Jäär)
+elif (d_>21 and m_==4) or (d_<21 and m_==5):
+    print(Sõnn)
+elif (d_>22 and m_==5) or (d_<21 and m_==6):
+    print(Kaksikud)
+elif (d_>22 and m_==6) or (d_<22 and m_==7):
+    print(Vähk)
+elif (d_>23 and m_==7) or (d_<21 and m_==8):
+    print(Lõvi)
+elif (d_>22 and m_==8) or (d_<23 and m_==9):
+    print(Neitsi)
+elif (d_>24 and m_==9) or (d_<23 and m_==10):
+    print(Kaalud)
+elif (d_>24 and m_==10) or (d_<22 and m_==11):
+    print(Skorpion)
+elif (d_>24 and m_==11) or (d_<22 and m_==12):
+    print(Ambur)
 
-#btn3=Button(tab1,text="tähtkujud",command=lambda:camry("tähtkujud.txt")
+    
+month=Entry(root,font="Calibri 26",fg="green",bg="lightblue",width=3)
+month.grid(row=0,column=0)
+x=Label(root,text="Kuu",font="Calibri 26",fg="green")
+x.grid(row=0,column=1)
+
+day=Entry(root,font="Calibri 26",fg="green",bg="lightblue",width=3)
+day.grid(row=0,column=0)
+y=Label(root,text="Päev",font="Calibri 26",fg="green")
+y.grid(row=0,column=1)
+can=Canvas(tab2,width=300,height=200)
+can.grid
+name=Entry(root,font="Calibri 26",fg="green",bg="lightblue",width=3)
+name.grid(row=0,column=0)
+image_=Canvas(width=3)
+image_.grid(row=0,column=0)
 
 
 
@@ -261,5 +308,9 @@ def (cancer):
 #can.create_image()
 #tabs.grid(row=1,column=0,columnspam=4)
 
+tabs.pack(fill="both")
+root.mainloop()
+tabs.pack(fill="both")
+root.mainloop()
 tabs.pack(fill="both")
 root.mainloop()
