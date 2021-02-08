@@ -37,6 +37,18 @@
     <Content Include="saggitarius.png" />
     <Content Include="scorpion.png" />
     <Content Include="taurus %281%29.png" />
+    <Content Include="TextFile1.txt" />
+    <Content Include="TextFile10.txt" />
+    <Content Include="TextFile11.txt" />
+    <Content Include="TextFile12.txt" />
+    <Content Include="TextFile2.txt" />
+    <Content Include="TextFile3.txt" />
+    <Content Include="TextFile4.txt" />
+    <Content Include="TextFile5.txt" />
+    <Content Include="TextFile6.txt" />
+    <Content Include="TextFile7.txt" />
+    <Content Include="TextFile8.txt" />
+    <Content Include="TextFile9.txt" />
     <Content Include="tähtkujud.txt" />
     <Content Include="unnamed.png" />
   </ItemGroup>
